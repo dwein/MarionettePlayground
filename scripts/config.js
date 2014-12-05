@@ -5,8 +5,9 @@ require.config({
     baseUrl: "/scripts",
 
     paths: {
-        "jquery": 'vendor/jquery/jquery-1.9.1',
+        "jquery": 'vendor/jquery/jquery',
         "underscore": 'vendor/lodash',
+        //"underscore": 'vendor/underscore',
         "backbone": 'vendor/backbone/backbone',
 
         "backbone.marionette": 'vendor/backbone/backbone.marionette',
