@@ -42,7 +42,7 @@
                 console.time('timing: creating collection');
 
                 var models = [];
-                _.times(50, function (n) {
+                _.times(6500, function (n) {
                     models.push(new Backbone.Model({ id: n, name: 'foo ' + n }));
                 });
 
